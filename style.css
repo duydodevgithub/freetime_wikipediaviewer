@@ -1,0 +1,47 @@
+body{
+    background-color:#091f44;
+}
+
+.randomArticle {
+    text-align: center;
+    padding:  10px;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    margin: 20px auto;
+}
+.search {
+    margin: 10px auto;
+    width: 400px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+a:active {
+    color: white;
+}
+
+.search{
+    background-color: white;
+    padding: 2px;
+}
+
+#form{
+    background-color: #d89134;
+}
+input {
+    margin: 25px auto;
+    height: 20px;
+}
+
+.result {
+    background-color: white;
+    width: 80%;
+    margin: 10px auto;
+}

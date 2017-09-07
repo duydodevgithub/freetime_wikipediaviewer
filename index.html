@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">        
+    <link rel="stylesheet" href="style.css">    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">         -->
+    <title>Wikipedia viewer</title>
+</head>
+<body>
+    <div class="randomArticle">
+        <h3><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a></h3>
+    </div>
+    <div class="search">
+        <form id="form" action="#" method="GET">
+            <input id="userinput" type="text" name="userinput" size="45" maxlength="30" placeholder="Search">
+            <span id="submit"><button>Submit</button></span>  
+        </form>
+    </div>
+
+    <div class="randomArticle">
+        <h3>Enter keyword and click submit to search</h3>
+    </div>
+    <div class="result">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
