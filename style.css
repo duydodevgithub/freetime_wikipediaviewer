@@ -40,8 +40,29 @@ input {
     height: 20px;
 }
 
-.result {
-    background-color: white;
+#content {
     width: 80%;
     margin: 10px auto;
 }
+.content_box {
+    border: 2px solid  #d89134;
+    background-color: #C6B594;
+    padding: 2px;
+}
+.content_header {
+    height: 20px;
+    color: black;
+    padding: 2px;
+}
+.content_content {
+    color: black;
+    padding: 2px;
+    line-height: 20px;
+}
+h3>a {
+    color: blue;
+}
+p>a {
+    color: black;
+}
+
